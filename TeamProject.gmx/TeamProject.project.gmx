@@ -6,18 +6,21 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\spr_test</sprite>
-    <sprite>sprites\spr_test2</sprite>
+    <sprite>sprites\spr_car_bodyTest</sprite>
+    <sprite>sprites\spr_car_tireTest</sprite>
+    <sprite>sprites\spr_terrainTest</sprite>
+    <sprite>sprites\spr_terrainVoidTest</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
-    <object>objects\obj_test</object>
-    <object>objects\object1</object>
-    <object>objects\object2</object>
+    <object>objects\obj_collision_parent</object>
+    <object>objects\obj_car_body</object>
+    <object>objects\obj_car_tire</object>
+    <object>objects\obj_ground</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room0</room>
+    <room>rooms\room_test</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
